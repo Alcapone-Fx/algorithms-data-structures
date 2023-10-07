@@ -1,6 +1,6 @@
 import { findCharacter } from '../FindCharacter';
 
-describe('concatenate', () => {
+describe('Find Character', () => {
   it('Should return empty string', () => {
     expect(findCharacter('', '')).toBe(-1);
   }); 
