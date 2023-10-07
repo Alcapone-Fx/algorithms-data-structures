@@ -1,9 +1,11 @@
-/**
+/*
  * The process of combining more than one string together is known as Concatenation.
  * String Concatenation is the technique of combining two strings.
- **/
+ */
 
-// String concatenation without using any inbuilt methods:
+/**
+ * String concatenation without using any inbuilt methods
+ */
 export const concatenate = (str1: string, str2: string) => {
   const length1 = str1.length;
   const length2 = str2.length;
