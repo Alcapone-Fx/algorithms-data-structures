@@ -18,6 +18,10 @@ export const trim = (str: string) => {
   return newString.slice(0, lastCharIndex).join('');
 };
 
+/**
+ * Remove spaces from a given string
+ * Best performance
+ */
 export const trim1 = (str: string) => {
   if (!str) {
     return '';
